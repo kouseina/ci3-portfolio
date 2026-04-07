@@ -1,6 +1,3 @@
-# CI3 System
-/system/
-
 # Environment
 .env
 .env.*
