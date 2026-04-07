@@ -1,0 +1,55 @@
+# CI3 System
+/system/
+
+# Application
+/application/
+
+# Keep this directory
+!/application/config/
+!/application/controllers/
+!/application/views/
+!/application/models/
+!/application/libraries/
+!/application/helpers/
+
+# Environment
+.env
+.env.*
+*.env
+
+# IDE
+.idea/
+.vscode/
+*.sublime-*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+/logs/*
+/logs/.* !/logs/.gitkeep
+
+# Cache
+/application/cache/*
+/application/cache/.* !/application/cache/.gitkeep
+
+# Temporary
+*.tmp
+*.bak
+*.swp
+*~
+
+# Composer
+/vendor/
+
+# Uploads (if you add later)
+/uploads/
+
+# Database
+*.sqlite
+*.db
+
+# Secrets
+credentials.json
+secrets.php
