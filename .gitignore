@@ -1,17 +1,6 @@
 # CI3 System
 /system/
 
-# Application
-/application/
-
-# Keep this directory
-!/application/config/
-!/application/controllers/
-!/application/views/
-!/application/models/
-!/application/libraries/
-!/application/helpers/
-
 # Environment
 .env
 .env.*
