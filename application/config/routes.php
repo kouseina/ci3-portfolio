@@ -13,11 +13,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 |	example.com/class/method/id/
 |
-| In some instances, however, you may want to remap this relationship
-| so that a different class/function is called than the one
-| corresponding to the URL.
+|	In some instances, however, you may want to remap this relationship
+|	so that a different controller class/method is called than the one
+|	corresponding to the URL.
 |
-| Please see the user guide for complete details:
+|	Please see the user guide for complete details:
 |
 |	https://codeigniter.com/userguide3/general/routing.html
 |
@@ -25,9 +25,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | RESERVED ROUTES
 | -------------------------------------------------------------------------
 |
-| There are three reserved routes:
+|	There are three reserved routes:
 |
-|	$route['default_controller'] = 'welcome';
+|	$route['default_controller'] = 'home';
 |
 | This route indicates which controller class should be loaded if the
 | URI contains no data. In the above example, the "welcome" class

@@ -20,12 +20,17 @@
 <body>
     <nav class="navbar">
         <div class="container nav-content">
-            <a href="#" class="logo"><?php echo $name; ?></a>
-            <div class="nav-links">
-                <a href="#about">About</a>
-                <a href="#skills">Skills</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
+            <a href="<?php echo base_url(); ?>" class="logo"><?php echo $name; ?></a>
+            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="nav-links" id="nav-links">
+                <a href="<?php echo base_url(); ?>">Home</a>
+                <a href="<?php echo base_url(); ?>about">About</a>
+                <a href="<?php echo base_url(); ?>projects">Projects</a>
+                <a href="<?php echo base_url(); ?>contact">Contact</a>
                 <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
                     <span class="theme-icon">🌙</span>
                 </button>
